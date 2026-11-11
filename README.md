@@ -8,7 +8,7 @@ Herramientas personales para descargar las secciones de los recursos a los que t
 - Python genera TXT y DOCX; calibre convierte DOCX a PDF desde código. La implementación portátil de este repositorio se comprobó generando 21 TXT de Romanos 1–3 y un DOCX de Isaías 33 con respuestas locales ya recuperadas. **La ejecución en Pop!_OS y la nueva envoltura portátil de PDF todavía deben verificarse allí**. La instalación portátil anterior de calibre ya no estaba disponible en esta computadora al preparar el repositorio; la conversión original por línea de comandos sí se comprobó con los 21 PDF de Romanos.
 - `/api/app/preview` es una ruta interna de Logos Web, no una API pública estable. Puede cambiar, devolver contenido vacío, bloques amplios, solo títulos o una parte del contenido. Una respuesta no garantiza por sí sola la cobertura exhaustiva del pasaje: revisa encabezados y final del TXT.
 - Se conserva el bloque que Logos asigna al pasaje; puede incluir capítulos vecinos. No se traducen idiomas. Las imágenes, tablas complejas, notas enlazadas y el diseño original no se reproducen fielmente: se conserva el texto devuelto y formato básico en DOCX.
-- No se incluye ningún libro, texto extraído, contraseña, cookie, token ni sesión guardada. Los inventarios de `` son listas de títulos e identificadores; tener un identificador no concede acceso al recurso.
+- No se incluye ningún libro, texto extraído, contraseña, cookie, token ni sesión guardada. Los inventarios JSON son listas de títulos e identificadores; tener un identificador no concede acceso al recurso.
 
 ## Instalar en Pop!_OS / Ubuntu
 
